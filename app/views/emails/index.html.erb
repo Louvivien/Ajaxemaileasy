@@ -1,13 +1,13 @@
 <div class="container">
   <div class="object-mail">
-    <ul>
       <% @emails.each do |g|  %>
-        <li> <%= link_to g.object, email_path(g.id), remote: true %></li>
+        <%= link_to g.object, email_path(g.id), remote: true, class: "mail-li#{g.id}" %>
+        <br>
       <% end %>
-    </ul>
   </div>
 
   <div class="body-email">
   </div>
+
 
 </div>

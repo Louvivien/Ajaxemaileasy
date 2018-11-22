@@ -1,2 +1,4 @@
-<%= @email.body%>
-<%link_to  %>
+<div class="body-li<%=params[:id]%>">
+  <%= @email.body%>
+  <%= link_to "Supprimer", email_path(params[:id]), method: :delete, remote: true %>
+</div>
