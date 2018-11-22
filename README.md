@@ -12,9 +12,9 @@ PS: Si vous testez sur Heroku le "Lu" "Non lu" prevenez moi si ça marche pas, p
 * Faite un git clone: https://github.com/MelloFlo/Ajax-c-cool
 * `bundle install`
 * `rails db:create`
-* `rails db:migrate
-* `rails db:seed
-* `rails s
+* `rails db:migrate`
+* `rails db:seed`
+* `rails s`
 * Et faites vos tests !
 # TEAM
 | Nom      | Prenom        |
