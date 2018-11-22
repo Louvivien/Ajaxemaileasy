@@ -6,6 +6,7 @@
 
 https://ajax-c-cool.herokuapp.com/
 (Attention il est tout moche!)
+PS: Si vous testez sur Heroku le "Lu" "Non lu" prevenez moi si ça marche pas, peut être quelqu'un a testé avant vous"
 
 ###### Étapes à suivre en local
 * Faite un git clone: https://github.com/MelloFlo/Ajax-c-cool
