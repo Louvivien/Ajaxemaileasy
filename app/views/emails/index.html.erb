@@ -1,9 +1,19 @@
+<div class="top">
+  <h1>Consulte tes emails</h1>
+</div>
+
 <div class="container">
+
   <div class="object-mail">
+    <ul>
       <% @emails.each do |g|  %>
-        <%= link_to g.object, email_path(g.id), remote: true, class: "mail-li#{g.id}" %>
-        <br>
+        <% if g.flag == false %>
+          <li class="mail-li<%=g.id%>"><span class="bold"><%= link_to g.object, email_path(g.id), remote: true %></span></li>
+        <% else %>
+          <li class="mail-li<%=g.id%>"><span class="no-bold"><%= link_to g.object, email_path(g.id), remote: true %></span></li>
+        <% end %>
       <% end %>
+    </ul>
   </div>
 
   <div class="body-email">

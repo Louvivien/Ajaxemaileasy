@@ -1,1 +1,24 @@
 @import "bootstrap";
+body {
+    background-color: #F5F5F5;
+}
+.container {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  margin-top:  5%;
+;
+}
+.object-mail{
+
+  padding-right: 20%;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+.top {
+    display: flex;
+    justify-content: center;
+}

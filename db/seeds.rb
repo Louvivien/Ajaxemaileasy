@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 10.times do |i|
-  Email.create!(object: "Email#{i}", body: "Hello! Ici c'est le mail numéro #{i}")
+  Email.create!(object: "Email#{i}", body: "Hello! Ici c'est le mail numéro #{i}", flag: false)
 end
