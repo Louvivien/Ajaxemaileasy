@@ -1,24 +1,38 @@
 @import "bootstrap";
 body {
-    background-color: #F5F5F5;
+  color: #343434;
+  background-color: #F5F5F5;
 }
+
+.top {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: #CFFFF4;
+    border-radius:  10px 100px / 120px;
+    box-shadow: 5px 5px 10px grey;
+}
+
 .container {
-  background-color: #FFFFFF;
+  background-color: #CFFFF4;
   display: flex;
   justify-content: space-between;
   margin-top:  5%;
-;
+  border-radius:  10px 100px / 120px;
+    box-shadow: 5px 5px 10px grey;
 }
-.object-mail{
 
-  padding-right: 20%;
+.object-mail ul{
+  list-style-type: none;
+}
+
+.object-mail a{
+  color: #343434;
 
 }
 
 .bold {
   font-weight: bold;
-}
-.top {
-    display: flex;
-    justify-content: center;
 }
