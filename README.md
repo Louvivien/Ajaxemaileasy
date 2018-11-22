@@ -19,8 +19,8 @@ PS: Si vous testez sur Heroku le "Lu" "Non lu" prevenez moi si ça marche pas, p
 # TEAM
 | Nom      | Prenom        |
 | -------- |:-------------:|
+| PINTO    | Florian (MASTER of The Day   )  |
 | REAU     | Alexis        |
-| PINTO    | Florian       |
 | AVRONSART    | Cyril       |
 | RICHAUD   | Vivien      |
 | DE LA TOUR | Pris       |
